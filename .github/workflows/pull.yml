@@ -11,9 +11,7 @@ jobs:
     - name: ls -a via ssh
       uses: fifsky/ssh-action@master
       with:
-        command: |
-          cd /usr
-          ls -a
+        command: ls -a
         host: 95.170.206.130
         user: root
         key: ${{ secrets.SERVER }}
