@@ -15,4 +15,4 @@ jobs:
           ls -a
         host: 95.170.206.130
         user: root
-        key: ${{ secrets.SERVER_KEY }}
+        key: ${{ secrets.AAA }}
